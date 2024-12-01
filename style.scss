@@ -1,0 +1,35 @@
+body{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+form{
+    width: 25%;
+    background-color: beige;
+    text-align: center;
+
+    #inpdiv{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input{
+        background-color: beige;
+        margin: 15px 10px;
+        border: none;
+        padding: 4px 15px 4px 5px;
+        border-bottom: 4px solid black;
+    }
+    }
+    button{
+        margin-top: 10px;
+        padding: 6px 15px;
+        background-color: peachpuff;
+        border: 1px solid black;
+        font-size: 14px;
+        box-shadow: 5px 5px 0 lightsteelblue;
+    }
+}
